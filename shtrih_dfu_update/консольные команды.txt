@@ -1,0 +1,5 @@
+console_test_fr_drv_ng discover
+
+Для записи еще одной таблицы, после обновления и восстановления
+echo Записываем новые региональные настройки...
+type C:\shtrih_dfu_update\newparam | console_test_fr_drv_ng restore-tables
