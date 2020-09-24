@@ -1,0 +1,140 @@
+[2020-09-04 17:50:32.324] [736] [fr_drv_ng                       ] [I] ----------------------------------------------------------------------------------------------------
+[2020-09-04 17:50:32.325] [736] [fr_drv_ng                       ] [I] fr_drv_ng log start!
+[2020-09-04 17:50:32.325] [736] [fr_drv_ng                       ] [I] cppbase version: 1.4.0.865 
+[2020-09-04 17:50:32.325] [736] [fr_drv_ng                       ] [I] build date: 2018-11-21T16:57:17
+[2020-09-04 17:50:32.325] [736] [fr_drv_ng                       ] [I] OS: Windows 6.2
+[2020-09-04 17:50:32.325] [736] [fr_drv_ng                       ] [I] ARCH: x86
+[2020-09-04 17:50:32.325] [736] [console_test                    ] [D] running command: discover
+[2020-09-04 17:50:32.325] [736] [UdpBroadcastRecevier_0x19f890   ] [I] address:0.0.0.0, port: 16327
+[2020-09-04 17:50:32.325] [736] [fr_drv_ng::DeviceDiscoverer::li…] [I] listen for udp broadcast on: 0.0.0.0:16327 for 4000 ms
+[2020-09-04 17:50:32.325] [736] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:50:36.340] [736] [UdpBroadcastRecevier_0x19f890   ] [E] recvfrom: No error
+[2020-09-04 17:50:36.340] [736] [fr_drv_ng::DeviceDiscoverer::li…] [I] no more broadcast message received in 4000 ms
+[2020-09-04 17:50:36.340] [736] [fr_drv_ng::DeviceDiscoverer::se…] [I] begin discover serial ports, timeout: 1000
+[2020-09-04 17:50:36.341] [736] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying port COM1 baudrate 115200
+[2020-09-04 17:50:36.341] [736] [ProtocolV1_0x6280b8             ] [I] setTimeout(1000ms)
+[2020-09-04 17:50:36.341] [736] [ProtocolV1_0x6280b8             ] [I] timeout: 1000
+[2020-09-04 17:50:36.341] [736] [SerialIO_0x612ae0               ] [I] IO timeout = 1000ms
+[2020-09-04 17:50:36.341] [736] [SerialIO_0x612ae0               ] [I] port: \\.\COM1, baudrate: 115200, stop bits: OneStop, parity NoParity, flow control: NoFlowControl
+[2020-09-04 17:50:36.344] [736] [SerialIO_0x612ae0               ] [I] open() true
+[2020-09-04 17:50:36.344] [736] [SerialIO_0x612ae0               ] [D] -> 05
+[2020-09-04 17:50:36.368] [736] [SerialIO_0x612ae0               ] [D] <- 15
+[2020-09-04 17:50:36.368] [736] [ProtocolV1_0x6280b8             ] [I] connect() true
+[2020-09-04 17:50:36.368] [736] [fr_drv_ng::DeviceDiscoverer::se…] [I] connect succeed!
+[2020-09-04 17:50:36.368] [736] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying to get device model
+[2020-09-04 17:50:36.369] [736] [SerialIO_0x612ae0               ] [D] -> 02 01 FC FD
+[2020-09-04 17:50:36.398] [736] [SerialIO_0x612ae0               ] [D] <- 06 02 0E FC 00 00 00 01 0E 1A 00 D0 D0 2D 30 33 D4 1D
+[2020-09-04 17:50:36.399] [736] [SerialIO_0x612ae0               ] [D] -> 06
+[2020-09-04 17:50:36.399] [736] [ProtocolV1_0x6280b8             ] [D] command FC return code: 0 execution took 30ms
+[2020-09-04 17:50:36.399] [736] [ProtocolV1_0x6280b8             ] [D] commands total: 1, succeed: 1, failed: 0, avg. exec time: 30ms
+[2020-09-04 17:50:36.399] [736] [fr_drv_ng::DeviceDiscoverer::se…] [I] device Ð Ð -03Ð¤ can be found on port COM1 with baudrate 115200
+[2020-09-04 17:50:36.399] [736] [ProtocolV1_0x6280b8             ] [I] disconnect()
+[2020-09-04 17:50:36.399] [736] [SerialIO_0x612ae0               ] [I] close()
+[2020-09-04 17:51:01.445] [7184] [fr_drv_ng                       ] [I] ----------------------------------------------------------------------------------------------------
+[2020-09-04 17:51:01.446] [7184] [fr_drv_ng                       ] [I] fr_drv_ng log start!
+[2020-09-04 17:51:01.446] [7184] [fr_drv_ng                       ] [I] cppbase version: 1.4.0.865 
+[2020-09-04 17:51:01.446] [7184] [fr_drv_ng                       ] [I] build date: 2018-11-21T16:57:17
+[2020-09-04 17:51:01.446] [7184] [fr_drv_ng                       ] [I] OS: Windows 6.2
+[2020-09-04 17:51:01.446] [7184] [fr_drv_ng                       ] [I] ARCH: x86
+[2020-09-04 17:51:01.446] [7184] [console_test                    ] [D] running command: discover
+[2020-09-04 17:51:01.446] [7184] [UdpBroadcastRecevier_0x19f890   ] [I] address:0.0.0.0, port: 16327
+[2020-09-04 17:51:01.446] [7184] [fr_drv_ng::DeviceDiscoverer::li…] [I] listen for udp broadcast on: 0.0.0.0:16327 for 4000 ms
+[2020-09-04 17:51:01.446] [7184] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:51:04.108] [7184] [fr_drv_ng::DeviceDiscoverer::li…] [I] received 54 bytes via upd broadcast
+[2020-09-04 17:51:04.109] [7184] [fr_drv_ng::DeviceDiscoverer::li…] [I] return first: false
+[2020-09-04 17:51:04.109] [7184] [fr_drv_ng::DeviceDiscoverer::li…] [I] new device with SN 0254690014005292 can be found on 192.168.200.122:7778
+[2020-09-04 17:51:04.109] [7184] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:51:05.453] [7184] [UdpBroadcastRecevier_0x19f890   ] [E] recvfrom: No error
+[2020-09-04 17:51:05.453] [7184] [fr_drv_ng::DeviceDiscoverer::li…] [I] no more broadcast message received in 4000 ms
+[2020-09-04 17:51:05.453] [7184] [fr_drv_ng::DeviceDiscoverer::se…] [I] begin discover serial ports, timeout: 1000
+[2020-09-04 17:51:05.453] [7184] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying port COM1 baudrate 115200
+[2020-09-04 17:51:05.454] [7184] [ProtocolV1_0x78d020             ] [I] setTimeout(1000ms)
+[2020-09-04 17:51:05.454] [7184] [ProtocolV1_0x78d020             ] [I] timeout: 1000
+[2020-09-04 17:51:05.454] [7184] [SerialIO_0x78c420               ] [I] IO timeout = 1000ms
+[2020-09-04 17:51:05.454] [7184] [SerialIO_0x78c420               ] [I] port: \\.\COM1, baudrate: 115200, stop bits: OneStop, parity NoParity, flow control: NoFlowControl
+[2020-09-04 17:51:05.456] [7184] [SerialIO_0x78c420               ] [I] open() true
+[2020-09-04 17:51:05.456] [7184] [SerialIO_0x78c420               ] [D] -> 05
+[2020-09-04 17:51:05.483] [7184] [SerialIO_0x78c420               ] [D] <- 15
+[2020-09-04 17:51:05.483] [7184] [ProtocolV1_0x78d020             ] [I] connect() true
+[2020-09-04 17:51:05.483] [7184] [fr_drv_ng::DeviceDiscoverer::se…] [I] connect succeed!
+[2020-09-04 17:51:05.483] [7184] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying to get device model
+[2020-09-04 17:51:05.483] [7184] [SerialIO_0x78c420               ] [D] -> 02 01 FC FD
+[2020-09-04 17:51:05.513] [7184] [SerialIO_0x78c420               ] [D] <- 06 02 0E FC 00 00 00 01 0E 1A 00 D0 D0 2D 30 33 D4 1D
+[2020-09-04 17:51:05.513] [7184] [SerialIO_0x78c420               ] [D] -> 06
+[2020-09-04 17:51:05.513] [7184] [ProtocolV1_0x78d020             ] [D] command FC return code: 0 execution took 30ms
+[2020-09-04 17:51:05.513] [7184] [ProtocolV1_0x78d020             ] [D] commands total: 1, succeed: 1, failed: 0, avg. exec time: 30ms
+[2020-09-04 17:51:05.513] [7184] [fr_drv_ng::DeviceDiscoverer::se…] [I] device Ð Ð -03Ð¤ can be found on port COM1 with baudrate 115200
+[2020-09-04 17:51:05.513] [7184] [ProtocolV1_0x78d020             ] [I] disconnect()
+[2020-09-04 17:51:05.513] [7184] [SerialIO_0x78c420               ] [I] close()
+[2020-09-04 17:51:14.855] [5860] [fr_drv_ng                       ] [I] ----------------------------------------------------------------------------------------------------
+[2020-09-04 17:51:14.856] [5860] [fr_drv_ng                       ] [I] fr_drv_ng log start!
+[2020-09-04 17:51:14.856] [5860] [fr_drv_ng                       ] [I] cppbase version: 1.4.0.865 
+[2020-09-04 17:51:14.856] [5860] [fr_drv_ng                       ] [I] build date: 2018-11-21T16:57:17
+[2020-09-04 17:51:14.856] [5860] [fr_drv_ng                       ] [I] OS: Windows 6.2
+[2020-09-04 17:51:14.856] [5860] [fr_drv_ng                       ] [I] ARCH: x86
+[2020-09-04 17:51:14.856] [5860] [console_test                    ] [D] running command: discover
+[2020-09-04 17:51:14.856] [5860] [UdpBroadcastRecevier_0x19f890   ] [I] address:0.0.0.0, port: 16327
+[2020-09-04 17:51:14.856] [5860] [fr_drv_ng::DeviceDiscoverer::li…] [I] listen for udp broadcast on: 0.0.0.0:16327 for 4000 ms
+[2020-09-04 17:51:14.856] [5860] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:51:16.111] [5860] [fr_drv_ng::DeviceDiscoverer::li…] [I] received 54 bytes via upd broadcast
+[2020-09-04 17:51:16.112] [5860] [fr_drv_ng::DeviceDiscoverer::li…] [I] return first: false
+[2020-09-04 17:51:16.112] [5860] [fr_drv_ng::DeviceDiscoverer::li…] [I] new device with SN 0254690014005292 can be found on 192.168.200.122:7778
+[2020-09-04 17:51:16.112] [5860] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:51:18.861] [5860] [UdpBroadcastRecevier_0x19f890   ] [E] recvfrom: No error
+[2020-09-04 17:51:18.861] [5860] [fr_drv_ng::DeviceDiscoverer::li…] [I] no more broadcast message received in 4000 ms
+[2020-09-04 17:51:18.862] [5860] [fr_drv_ng::DeviceDiscoverer::se…] [I] begin discover serial ports, timeout: 1000
+[2020-09-04 17:51:18.862] [5860] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying port COM1 baudrate 115200
+[2020-09-04 17:51:18.862] [5860] [ProtocolV1_0x6fc9f8             ] [I] setTimeout(1000ms)
+[2020-09-04 17:51:18.862] [5860] [ProtocolV1_0x6fc9f8             ] [I] timeout: 1000
+[2020-09-04 17:51:18.862] [5860] [SerialIO_0x6fb320               ] [I] IO timeout = 1000ms
+[2020-09-04 17:51:18.862] [5860] [SerialIO_0x6fb320               ] [I] port: \\.\COM1, baudrate: 115200, stop bits: OneStop, parity NoParity, flow control: NoFlowControl
+[2020-09-04 17:51:18.864] [5860] [SerialIO_0x6fb320               ] [I] open() true
+[2020-09-04 17:51:18.865] [5860] [SerialIO_0x6fb320               ] [D] -> 05
+[2020-09-04 17:51:18.892] [5860] [SerialIO_0x6fb320               ] [D] <- 15
+[2020-09-04 17:51:18.892] [5860] [ProtocolV1_0x6fc9f8             ] [I] connect() true
+[2020-09-04 17:51:18.892] [5860] [fr_drv_ng::DeviceDiscoverer::se…] [I] connect succeed!
+[2020-09-04 17:51:18.892] [5860] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying to get device model
+[2020-09-04 17:51:18.892] [5860] [SerialIO_0x6fb320               ] [D] -> 02 01 FC FD
+[2020-09-04 17:51:18.922] [5860] [SerialIO_0x6fb320               ] [D] <- 06 02 0E FC 00 00 00 01 0E 1A 00 D0 D0 2D 30 33 D4 1D
+[2020-09-04 17:51:18.922] [5860] [SerialIO_0x6fb320               ] [D] -> 06
+[2020-09-04 17:51:18.922] [5860] [ProtocolV1_0x6fc9f8             ] [D] command FC return code: 0 execution took 30ms
+[2020-09-04 17:51:18.922] [5860] [ProtocolV1_0x6fc9f8             ] [D] commands total: 1, succeed: 1, failed: 0, avg. exec time: 30ms
+[2020-09-04 17:51:18.922] [5860] [fr_drv_ng::DeviceDiscoverer::se…] [I] device Ð Ð -03Ð¤ can be found on port COM1 with baudrate 115200
+[2020-09-04 17:51:18.922] [5860] [ProtocolV1_0x6fc9f8             ] [I] disconnect()
+[2020-09-04 17:51:18.922] [5860] [SerialIO_0x6fb320               ] [I] close()
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng                       ] [I] ----------------------------------------------------------------------------------------------------
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng                       ] [I] fr_drv_ng log start!
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng                       ] [I] cppbase version: 1.4.0.865 
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng                       ] [I] build date: 2018-11-21T16:57:17
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng                       ] [I] OS: Windows 6.2
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng                       ] [I] ARCH: x86
+[2020-09-04 17:53:55.355] [6432] [console_test                    ] [D] running command: discover
+[2020-09-04 17:53:55.355] [6432] [UdpBroadcastRecevier_0x19f890   ] [I] address:0.0.0.0, port: 16327
+[2020-09-04 17:53:55.355] [6432] [fr_drv_ng::DeviceDiscoverer::li…] [I] listen for udp broadcast on: 0.0.0.0:16327 for 4000 ms
+[2020-09-04 17:53:55.355] [6432] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:53:58.140] [6432] [fr_drv_ng::DeviceDiscoverer::li…] [I] received 54 bytes via upd broadcast
+[2020-09-04 17:53:58.140] [6432] [fr_drv_ng::DeviceDiscoverer::li…] [I] return first: false
+[2020-09-04 17:53:58.140] [6432] [fr_drv_ng::DeviceDiscoverer::li…] [I] new device with SN 0254690014005292 can be found on 192.168.200.122:7778
+[2020-09-04 17:53:58.140] [6432] [UdpBroadcastRecevier_0x19f890   ] [I] fr_drv_ng::UdpBroadcastRecevier::waitForMessage
+[2020-09-04 17:53:59.357] [6432] [UdpBroadcastRecevier_0x19f890   ] [E] recvfrom: No error
+[2020-09-04 17:53:59.357] [6432] [fr_drv_ng::DeviceDiscoverer::li…] [I] no more broadcast message received in 4000 ms
+[2020-09-04 17:53:59.357] [6432] [fr_drv_ng::DeviceDiscoverer::se…] [I] begin discover serial ports, timeout: 1000
+[2020-09-04 17:53:59.357] [6432] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying port COM1 baudrate 115200
+[2020-09-04 17:53:59.357] [6432] [ProtocolV1_0x7ec798             ] [I] setTimeout(1000ms)
+[2020-09-04 17:53:59.357] [6432] [ProtocolV1_0x7ec798             ] [I] timeout: 1000
+[2020-09-04 17:53:59.357] [6432] [SerialIO_0x7eb0a0               ] [I] IO timeout = 1000ms
+[2020-09-04 17:53:59.357] [6432] [SerialIO_0x7eb0a0               ] [I] port: \\.\COM1, baudrate: 115200, stop bits: OneStop, parity NoParity, flow control: NoFlowControl
+[2020-09-04 17:53:59.360] [6432] [SerialIO_0x7eb0a0               ] [I] open() true
+[2020-09-04 17:53:59.360] [6432] [SerialIO_0x7eb0a0               ] [D] -> 05
+[2020-09-04 17:53:59.388] [6432] [SerialIO_0x7eb0a0               ] [D] <- 15
+[2020-09-04 17:53:59.388] [6432] [ProtocolV1_0x7ec798             ] [I] connect() true
+[2020-09-04 17:53:59.388] [6432] [fr_drv_ng::DeviceDiscoverer::se…] [I] connect succeed!
+[2020-09-04 17:53:59.388] [6432] [fr_drv_ng::DeviceDiscoverer::se…] [I] trying to get device model
+[2020-09-04 17:53:59.388] [6432] [SerialIO_0x7eb0a0               ] [D] -> 02 01 FC FD
+[2020-09-04 17:53:59.419] [6432] [SerialIO_0x7eb0a0               ] [D] <- 06 02 0E FC 00 00 00 01 0E 1A 00 D0 D0 2D 30 33 D4 1D
+[2020-09-04 17:53:59.419] [6432] [SerialIO_0x7eb0a0               ] [D] -> 06
+[2020-09-04 17:53:59.419] [6432] [ProtocolV1_0x7ec798             ] [D] command FC return code: 0 execution took 31ms
+[2020-09-04 17:53:59.419] [6432] [ProtocolV1_0x7ec798             ] [D] commands total: 1, succeed: 1, failed: 0, avg. exec time: 31ms
+[2020-09-04 17:53:59.419] [6432] [fr_drv_ng::DeviceDiscoverer::se…] [I] device Ð Ð -03Ð¤ can be found on port COM1 with baudrate 115200
+[2020-09-04 17:53:59.419] [6432] [ProtocolV1_0x7ec798             ] [I] disconnect()
+[2020-09-04 17:53:59.419] [6432] [SerialIO_0x7eb0a0               ] [I] close()

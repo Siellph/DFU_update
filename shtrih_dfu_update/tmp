@@ -1,0 +1,2 @@
+tcp://192.168.200.122:7778?timeout=15000&protocol=v1
+serial://COM1?timeout=15000&baudrate=115200&protocol=v1
